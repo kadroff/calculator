@@ -14,6 +14,8 @@
      result = number1 * number2;
   }else if (action == '/'){
      result = number1 / number2;
+  }else if (number1 < number2){
+    result = '-'number2 - number1;
   }
 
     $("input[name=result]").val(result);
